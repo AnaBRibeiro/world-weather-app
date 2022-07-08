@@ -2,6 +2,7 @@ import Title from "./Title";
 import SearchEngine from "./SearchEngine";
 import CurrentWeatherSecondaryInfo from "./CurrentWeatherSecondaryInfo";
 import CurrentWeatherPrimaryInfo from "./CurrentWeatherPrimaryInfo";
+import WeatherForecast from "./WeatherForecast";
 import Signature from "./Signature";
 
 import "./App.css";
@@ -19,6 +20,7 @@ export default function App() {
               <CurrentWeatherPrimaryInfo />
             </div>
           </div>
+          <WeatherForecast />
         </div>
         <Signature />
       </div>
